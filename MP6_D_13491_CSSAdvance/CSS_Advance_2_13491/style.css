@@ -1,4 +1,3 @@
-/* Pengaturan Latar Belakang Utama dan Tipografi */
 body {
     background-color: #eef2f7;
     color: #334155;
@@ -8,7 +7,6 @@ body {
     padding: 0 15px;
 }
 
-/* Judul Utama Halaman */
 h1 {
     color: #1e3a8a;
     font-size: 26px;
@@ -20,7 +18,6 @@ h1 {
     padding-bottom: 10px;
 }
 
-/* Subjudul Setiap Bagian (Memberi Karakter Blok Berwarna) */
 h2 {
     color: #1e40af;
     font-size: 16px;
@@ -31,7 +28,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Desain Tabel, Collapse Border, dan Warna Garis */
 table {
     background-color: #ffffff;
     border-collapse: collapse;
