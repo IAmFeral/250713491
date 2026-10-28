@@ -1,45 +1,66 @@
+/* Pengaturan Latar Belakang Utama dan Tipografi */
 body {
-    background-color: #f0f4f8;
-    color: #1e293b;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px auto;
-    max-width: 800px;
-    padding: 0 20px;
+    background-color: #eef2f7;
+    color: #334155;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px auto;
+    max-width: 750px;
+    padding: 0 15px;
 }
 
+/* Judul Utama Halaman */
 h1 {
-    color: #0f172a;
-    font-size: 24px;
+    color: #1e3a8a;
+    font-size: 26px;
     text-align: center;
-    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #3b82f6;
+    padding-bottom: 10px;
 }
 
+/* Subjudul Setiap Bagian (Memberi Karakter Blok Berwarna) */
 h2 {
-    color: #1d4ed8;
+    color: #1e40af;
     font-size: 16px;
-    border-bottom: 2px solid #cbd5e1;
-    padding-bottom: 5px;
-    margin-top: 25px;
+    background-color: #dbeafe;
+    padding: 8px 12px;
+    border-left: 5px solid #2563eb;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
+/* Desain Tabel, Collapse Border, dan Warna Garis */
 table {
     background-color: #ffffff;
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 15px;
-    border-color: #cbd5e1;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 td {
-    padding: 8px 12px;
+    padding: 10px 14px;
     border: 1px solid #cbd5e1;
     vertical-align: middle;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
 }
 
 input, select, textarea {
     font-family: inherit;
     color: #1e293b;
+    padding: 4px;
+    border: 1px solid #94a3b8;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    background-color: #f8fafc;
 }
 
 p {
@@ -49,10 +70,12 @@ p {
 input[type="submit"] {
     background-color: #2563eb;
     color: #ffffff;
-    padding: 8px 20px;
+    padding: 8px 24px;
     border: 1px solid #1d4ed8;
     cursor: pointer;
     font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
 }
 
 input[type="submit"]:hover {
